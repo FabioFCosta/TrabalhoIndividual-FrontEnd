@@ -1,0 +1,79 @@
+section[id=newsletter] {
+    padding: 3rem 0;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form[id=newsletter-form] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    height: 20rem;
+    border: #6a6a6a solid 0.1px;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    form[id=newsletter-form] {
+        width: 80%;
+    }
+}
+
+form[id=newsletter-form]>input {
+    padding: 0 0.5rem;
+    width: 90%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border: #6a6a6a solid 0.1px;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+form[id=newsletter-form]>input:hover {
+    border: #64BEFF solid 1px;
+}
+
+.checkbox {
+    display: flex;
+    width: 95%;
+    height: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: start;
+    font-size: 16px;
+}
+
+input[type=checkbox] {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+button[form=newsletter-form] {
+    width: 80%;
+    height: 3rem;
+    background-color: #6a6a6a;
+    font-size: 20px;
+    font-weight: bold;
+    color: #64BEFF;
+    cursor: pointer;
+    border: none;
+}
+
+button[form=newsletter-form]:hover {
+
+    background-color: #64BEFF;
+    color: #6a6a6a;
+    transition-duration: 0.5s;
+
+}

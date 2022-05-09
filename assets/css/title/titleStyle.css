@@ -1,0 +1,24 @@
+section.title {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    margin: auto;
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    .subtitle {
+        width: 100%;
+    }
+}
